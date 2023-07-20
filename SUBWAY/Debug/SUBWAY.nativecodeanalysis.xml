@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\82107\source\repos\SUBWAY\SUBWAY\</FILEPATH>
+      <FILENAME>SUBWAY.cpp</FILENAME>
+      <LINE>925</LINE>
+      <COLUMN>14</COLUMN>
+    </SFA>
+    <DEFECTCODE>6011</DEFECTCODE>
+    <DESCRIPTION>NULL 포인터 'node'을(를) 역참조하고 있습니다. </DESCRIPTION>
+    <FUNCTION>insert_edge</FUNCTION>
+    <DECORATED>?insert_edge@@YAXPAUGraphType@@HH@Z</DECORATED>
+    <FUNCLINE>916</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\82107\source\repos\SUBWAY\SUBWAY\</FILEPATH>
+        <FILENAME>SUBWAY.cpp</FILENAME>
+        <LINE>918</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\82107\source\repos\SUBWAY\SUBWAY\</FILEPATH>
+        <FILENAME>SUBWAY.cpp</FILENAME>
+        <LINE>919</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\82107\source\repos\SUBWAY\SUBWAY\</FILEPATH>
+        <FILENAME>SUBWAY.cpp</FILENAME>
+        <LINE>924</LINE>
+        <COLUMN>6</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'node'은(는) NULL일 수 있습니다.</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\82107\source\repos\SUBWAY\SUBWAY\</FILEPATH>
+        <FILENAME>SUBWAY.cpp</FILENAME>
+        <LINE>925</LINE>
+        <COLUMN>14</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'node'이(가) 역참조되었지만 여전히 NULL일 수 있습니다.</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\82107\source\repos\SUBWAY\SUBWAY\</FILEPATH>
+      <FILENAME>SUBWAY.cpp</FILENAME>
+      <LINE>1121</LINE>
+      <COLUMN>6</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>반환 값이 무시되었습니다. 'scanf'.</DESCRIPTION>
+    <FUNCTION>main</FUNCTION>
+    <DECORATED>main</DECORATED>
+    <FUNCLINE>1107</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\82107\source\repos\SUBWAY\SUBWAY\</FILEPATH>
+      <FILENAME>SUBWAY.cpp</FILENAME>
+      <LINE>1123</LINE>
+      <COLUMN>6</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>반환 값이 무시되었습니다. 'scanf'.</DESCRIPTION>
+    <FUNCTION>main</FUNCTION>
+    <DECORATED>main</DECORATED>
+    <FUNCLINE>1107</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\82107\source\repos\SUBWAY\SUBWAY\</FILEPATH>
+      <FILENAME>SUBWAY.cpp</FILENAME>
+      <LINE>1136</LINE>
+      <COLUMN>6</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>반환 값이 무시되었습니다. 'scanf'.</DESCRIPTION>
+    <FUNCTION>main</FUNCTION>
+    <DECORATED>main</DECORATED>
+    <FUNCLINE>1107</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

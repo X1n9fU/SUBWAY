@@ -1,0 +1,8 @@
+﻿  SUBWAY.cpp
+C:\Users\minky\Desktop\민경\자료구조\SUBWAY\SUBWAY\SUBWAY.cpp(1040,22): warning C4101: 'info' :참조되지 않은 지역 변수입니다.
+C:\Users\minky\Desktop\민경\자료구조\SUBWAY\SUBWAY\SUBWAY.cpp(1040,7): warning C4101: 'buffer' :참조되지 않은 지역 변수입니다.
+C:\Users\minky\Desktop\민경\자료구조\SUBWAY\SUBWAY\SUBWAY.cpp(1137,8): warning C4101: 'j' :참조되지 않은 지역 변수입니다.
+C:\Users\minky\Desktop\민경\자료구조\SUBWAY\SUBWAY\SUBWAY.cpp(855): warning C4715: 'numbering': 모든 제어 경로에서 값을 반환하지는 않습니다.
+C:\Users\minky\Desktop\민경\자료구조\SUBWAY\SUBWAY\SUBWAY.cpp(1100): warning C4715: 'mintransfer': 모든 제어 경로에서 값을 반환하지는 않습니다.
+C:\Users\minky\Desktop\민경\자료구조\SUBWAY\SUBWAY\SUBWAY.cpp(1122): warning C4715: 'fintransfer': 모든 제어 경로에서 값을 반환하지는 않습니다.
+  SUBWAY.vcxproj -> C:\Users\minky\Desktop\민경\자료구조\SUBWAY\x64\Debug\SUBWAY.exe
